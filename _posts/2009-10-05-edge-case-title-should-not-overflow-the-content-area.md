@@ -46,7 +46,7 @@ Here, $D_\theta$ is reverse diffusion process.
 
 This mechanism depends on the assumption that  $x_{t+1}-x_t\approx x_{t}-x_{t-1}$ (논문에 표기된 수식은 오타인 듯)
 
-$$ x_{t+1} = \sqrt{\bar \alpha_{t+1}}\hat x_0^t + \sqrt{1-\bar \alpha_{t+1}}\epsilon_\theta(x_t). $$
+$$x_{t+1} = \sqrt{\bar \alpha_{t+1}}\hat x_0^t + \sqrt{1-\bar \alpha_{t+1}}\epsilon_\theta(x_t)$$
 
 $D^\dagger_\theta$ denotes inversion process by above equation.
 

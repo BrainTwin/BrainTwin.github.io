@@ -28,7 +28,7 @@ read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax:
   enable: true # MathJax equations, e.g. true, false (default)
-  combo: docs.mathjax.org/en/latest/web/components/combined.html # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  combo: tex-mml-chtml # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
   tags:  # "none", "ams" (default), "all"
 google_fonts:
   - name: "Source Sans Pro"

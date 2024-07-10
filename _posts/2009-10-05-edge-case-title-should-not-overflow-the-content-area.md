@@ -24,3 +24,7 @@ The following CSS property will help you support non-breaking text.
 ```css
 word-wrap: break-word;
 ```
+``` python
+import numpy as np
+arr0 = np.arange(10)
+```

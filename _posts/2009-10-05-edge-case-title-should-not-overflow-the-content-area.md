@@ -1,5 +1,5 @@
 ---
-title: "Test content"
+title: "Antidisestablishmentarianism"
 categories:
   - Edge Case
 tags:
@@ -12,7 +12,8 @@ tags:
 last_modified_at: 2017-03-09T14:10:02-05:00
 ---
 
-I'm studying about the usage of the markdown language for posting.
+This post title has a long word that could potentially overflow the content area.
+
 A few things to check for:
 
   * Non-breaking text in the title should have no adverse effects on layout or functionality.
@@ -22,9 +23,4 @@ The following CSS property will help you support non-breaking text.
 
 ```css
 word-wrap: break-word;
-```
-
-```python
-import numpy as np
-arr0 = np.arange(10)
 ```

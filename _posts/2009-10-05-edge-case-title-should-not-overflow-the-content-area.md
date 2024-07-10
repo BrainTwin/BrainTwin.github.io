@@ -34,7 +34,7 @@ arr0 = np.arange(10)
 
 ### Diffusion Inversion
 
-: Reverse diffusion process의 initial state $`x_T`$를 $x_0$로 부터 sampling하는 것.
+: Reverse diffusion process의 initial state $x_T$를 $x_0$로 부터 sampling하는 것.
 
 (Reverse process와 Forward process가 서로 adjoint 되어 있음이 보장되면 가능.)
 

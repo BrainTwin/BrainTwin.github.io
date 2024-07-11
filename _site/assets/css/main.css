@@ -89,6 +89,7 @@
 * http://sorgalla.com/lity/
 * Copyright (c) 2015-2017 Jan Sorgalla; Licensed MIT */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delius&family=M+PLUS+1+Code:wght@100..700&family=Nunito:ital,wght@1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schoolbell&display=swap");
 .lity {
   z-index: 9990;
   position: fixed;
@@ -1075,7 +1076,7 @@ th {
 .site-title {
   margin: 0.2em 0 0;
   padding: 0;
-  font-weight: 1000;
+  font-weight: 800;
 }
 .site-title {
   font-size: 15.5490273664px;

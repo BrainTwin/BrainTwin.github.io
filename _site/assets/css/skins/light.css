@@ -72,7 +72,7 @@ blockquote {
    ========================================================================== */
 .site-title a {
   font-size: 1.2em;
-  color: rgb(8, 6, 27);
+  color: rgb(5, 5, 50);
 }
 
 .copyright {
@@ -105,6 +105,9 @@ blockquote {
   color: silver;
 }
 
+.site-nav {
+  background-color: #626262;
+}
 .site-nav ul {
   color: #fff;
   background-color: #626262;

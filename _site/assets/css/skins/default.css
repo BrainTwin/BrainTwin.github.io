@@ -52,7 +52,7 @@
 body {
   color: #000;
   background: #fff;
-  border-top-color: rgb(8, 6, 27);
+  border-top-color: rgb(5, 5, 40);
 }
 
 a {
@@ -72,7 +72,7 @@ blockquote {
    ========================================================================== */
 .site-title a {
   font-size: 1.2em;
-  color: rgb(8, 6, 27);
+  color: rgb(5, 5, 50);
 }
 
 .copyright {
@@ -105,13 +105,16 @@ blockquote {
   color: gray;
 }
 
+.site-nav {
+  background-color: rgb(5, 5, 40);
+}
 .site-nav ul {
   color: #fff;
-  background-color: rgb(8, 6, 27);
+  background-color: rgb(5, 5, 40);
 }
 .site-nav a {
   color: #fff;
-  border-color: rgb(8, 6, 27);
+  border-color: rgb(5, 5, 40);
 }
 .site-nav a:hover {
   border-color: #fff;
@@ -148,7 +151,7 @@ blockquote {
 }
 
 #menu-toggle {
-  background-color: rgb(8, 6, 27);
+  background-color: rgb(5, 5, 40);
 }
 
 #markdown-toc {

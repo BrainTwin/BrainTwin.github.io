@@ -74,6 +74,7 @@
 .site-title {
   margin: 0.2em 0 0;
   padding: 0;
+  font-family: $custom-font-family_sub;
   @include fluid-type($min-vw, $max-vw, $h2-min*0.8, $h2-max*0.8);
   font-weight: 800;
 

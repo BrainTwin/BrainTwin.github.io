@@ -70,7 +70,9 @@ blockquote {
    Site-wide
    ========================================================================== */
 .site-title a {
-  color: #eaeaea;
+  font-family: "Lora", serif;
+  font-size: 1.2em;
+  color: rgb(13, 9, 42);
 }
 
 .copyright {

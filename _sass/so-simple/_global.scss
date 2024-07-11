@@ -85,10 +85,10 @@
 .site-description {
   margin-bottom: 1em;
   font-family: $description-font-family;
-  @include fluid-type($min-vw, $max-vw, $h5-min*0.8, $h5-max*0.8);
+  @include fluid-type($min-vw, $max-vw, $h5-min*0.9, $h5-max*0.9);
   font-weight: 300;
   // font-style: italic;
-  color: rgb(11, 11, 45);
+  color: black;
 }
 
 .site-logo {

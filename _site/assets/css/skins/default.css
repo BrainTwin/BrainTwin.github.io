@@ -52,7 +52,7 @@
 body {
   color: #000;
   background: #fff;
-  border-top-color: rgb(13, 9, 42);
+  border-top-color: rgb(8, 6, 27);
 }
 
 a {
@@ -73,7 +73,7 @@ blockquote {
 .site-title a {
   font-family: "Lora", serif;
   font-size: 1.2em;
-  color: rgb(13, 9, 42);
+  color: rgb(8, 6, 27);
 }
 
 .copyright {
@@ -108,11 +108,11 @@ blockquote {
 
 .site-nav ul {
   color: #fff;
-  background-color: rgb(13, 9, 42);
+  background-color: rgb(8, 6, 27);
 }
 .site-nav a {
   color: #fff;
-  border-color: rgb(13, 9, 42);
+  border-color: rgb(8, 6, 27);
 }
 .site-nav a:hover {
   border-color: #fff;
@@ -149,7 +149,7 @@ blockquote {
 }
 
 #menu-toggle {
-  background-color: rgb(13, 9, 42);
+  background-color: rgb(8, 6, 27);
 }
 
 #markdown-toc {

@@ -88,6 +88,7 @@
 /*! Lity - v3.0.0-dev - 2017-07-17
 * http://sorgalla.com/lity/
 * Copyright (c) 2015-2017 Jan Sorgalla; Licensed MIT */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schoolbell&display=swap");
 .lity {
   z-index: 9990;
   position: fixed;
@@ -1074,7 +1075,7 @@ th {
 .site-title {
   margin: 0.2em 0 0;
   padding: 0;
-  font-weight: 900;
+  font-weight: 1000;
 }
 .site-title {
   font-size: 15.5490273664px;
@@ -1095,7 +1096,7 @@ th {
 
 .site-description {
   margin-bottom: 1em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Schoolbell", cursive;
   font-weight: 300;
   color: black;
 }

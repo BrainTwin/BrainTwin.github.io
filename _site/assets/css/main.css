@@ -1628,6 +1628,11 @@ th {
     clear: both;
   }
 }
+.layout--post .page-header .page-date {
+  font-family: "Lora", serif;
+  font-style: italic;
+  white-space: nowrap;
+}
 .layout--post .page-sidebar {
   margin-bottom: 1em;
 }

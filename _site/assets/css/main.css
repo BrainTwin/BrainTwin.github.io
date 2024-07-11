@@ -1064,7 +1064,8 @@ th {
 
 .masthead {
   clear: both;
-  margin-bottom: 3em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
   text-align: center;
 }
 .masthead::after {

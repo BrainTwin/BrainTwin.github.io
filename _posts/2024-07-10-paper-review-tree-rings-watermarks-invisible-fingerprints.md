@@ -6,6 +6,6 @@ tags:
   - signature
 # last_modified_at: 2024-07-20
 ---
-![Main image](/images/2024-07-12-paper-review-tree-rings-watermarks-invisible-fingerprints_0.png)
+![Main image](/images/2024-07-10-paper-review-tree-rings-watermarks-invisible-fingerprints_0.png)
 
 Main image 

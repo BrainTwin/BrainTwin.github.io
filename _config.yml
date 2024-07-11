@@ -17,7 +17,7 @@
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
 # remote_theme: "mmistakes/so-simple-theme"
 skin: "/assets/css/skins/default.css"
-locale: en-US
+locale: ko-KR
 title: "BrainTwin"
 description: "About Artificial Intelligence..."
 baseurl: # the subpath of your site, e.g. "/blog"

@@ -1075,7 +1075,7 @@ th {
 }
 
 .site-title {
-  margin: 0.2em 0 0;
+  margin: 0em 0 0;
   padding: 0;
   font-family: "Delius", cursive;
   font-weight: 800;
@@ -1377,14 +1377,12 @@ th {
    Page
    ========================================================================== */
 .page-wrapper {
-  margin: 0 auto;
+  margin: 0em auto;
   padding-left: 1em;
-  padding-right: 1em;
   max-width: 1024px;
 }
 
 .page-title-post {
-  margin-bottom: 0.5em;
   font-family: "Lora", serif;
   font-weight: bold;
   font-style: italic;
@@ -1470,11 +1468,6 @@ th {
 
 .page-sidebar {
   font-size: 0.75rem;
-}
-@media (min-width: 64em) {
-  .page-sidebar {
-    text-align: center;
-  }
 }
 .page-sidebar .page-date,
 .page-sidebar .read-time {

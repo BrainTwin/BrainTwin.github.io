@@ -3,16 +3,18 @@
    ========================================================================== */
 
 .page-wrapper {
-  margin: 0 auto;
+  margin: 0em auto;
   padding-left: 1em;
-  padding-right: 1em;
+  // padding-right: 0.5em;
   max-width: $main-sidebar-max-width;
 }
 
 .page-title-post {
   // @include fluid-type($min-vw, $max-vw, 48px, 60px);
   @include fluid-type($min-vw, $max-vw, 32px, 40px);
-  margin-bottom: 0.5em;
+  // margin-bottom: 1em;
+  // padding-left: 2em;
+  // padding-right: 1em;
   font-family: $title-font-family;
   font-weight: $page-title-weight;
   font-style: italic;
@@ -76,9 +78,8 @@
 
 .page-sidebar {
   font-size: 0.75rem;
-
   @include breakpoint($large) {
-    text-align: center;
+    // text-align: center;
   }
 
   .page-date,

@@ -1407,6 +1407,7 @@ th {
   text-transform: uppercase;
   font-family: "Delius", cursive;
   font-weight: bold;
+  text-align: center;
   letter-spacing: -1.5px;
 }
 .page-title {

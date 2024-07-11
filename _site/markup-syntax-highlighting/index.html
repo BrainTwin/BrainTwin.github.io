@@ -19,6 +19,7 @@
 <title>Test_A | BrainTwin</title>
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Test_A" />
+<meta name="author" content="WooSang Shin" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll’s {% highlight %} tag." />
 <meta property="og:description" content="Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll’s {% highlight %} tag." />
@@ -30,8 +31,9 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Test_A" />
 <meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@WooSang Shin" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2017-03-10T00:27:01+09:00","datePublished":"2013-08-16T00:00:00+09:00","description":"Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll’s {% highlight %} tag.","headline":"Test_A","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/markup-syntax-highlighting/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo.png"}},"url":"http://localhost:4000/markup-syntax-highlighting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"WooSang Shin"},"dateModified":"2017-03-10T00:27:01+09:00","datePublished":"2013-08-16T00:00:00+09:00","description":"Post displaying the various ways one can highlight code blocks with Jekyll. Some options include standard Markdown, GitHub Flavored Markdown, and Jekyll’s {% highlight %} tag.","headline":"Test_A","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/markup-syntax-highlighting/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo.png"},"name":"WooSang Shin"},"url":"http://localhost:4000/markup-syntax-highlighting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -47,7 +49,7 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="/assets/css/skins/dark.css">
   
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i|Lora:400,400i,700,700i">
   <link rel="alternate" type="application/atom+xml" title="BrainTwin" href="/atom.xml">
 <!-- start custom head snippets -->
 
@@ -72,7 +74,7 @@
   <div class="navigation-wrapper">
     <a href="#menu-toggle" id="menu-toggle">Menu</a>
     <nav id="primary-nav" class="site-nav animated drop">
-      <ul><li><a href="/">Home</a></li></ul>
+      <ul><li><a href="/">Home</a></li><li><a href="/posts/">Posts</a></li><li><a href="/categories/">Categories</a></li><li><a href="/search/">Search</a></li></ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
 
@@ -109,7 +111,9 @@
       </header>
 
       <div class="page-sidebar">
-        <div class="page-author h-card p-author"><div class="author-info"><ul class="author-links"><li class="author-link">
+        <div class="page-author h-card p-author"><div class="author-info"><div class="author-name">
+        <em>by</em> <span class="p-name">WooSang Shin</span>
+      </div><ul class="author-links"><li class="author-link">
             <a class="u-url" rel="me" href=""><i class="fas fa-link fa-lg" title=""></i></a>
           </li></ul>
     <time class="page-date dt-published" datetime="2013-08-16T00:00:00+09:00"><a class="u-url" href="">August 16, 2013</a>
@@ -270,15 +274,23 @@
 
         <nav class="page-pagination" role="navigation">
   
-    <a class="page-previous" href="/post%20formats/post-quote/">
+    <a class="page-previous" href="/markup/markup-html-elements-and-formatting/">
       <h4 class="page-pagination-label">Previous</h4>
       <span class="page-pagination-title">
-        <i class="fas fa-arrow-left"></i> Test_B
+        <i class="fas fa-arrow-left"></i> Markup: HTML Elements and Formatting
 
       </span>
     </a>
   
 
+  
+    <a class="page-next" href="/mathjax-example/">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        MathJax Example
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
   
 </nav>
 
@@ -335,7 +347,7 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 // http://docs.mathjax.org/en/latest/upgrading/v2.html
 MathJax = {
   tex: {
-      tags: "ams"    // eq numbering options: none, ams, all
+      tags: "none"    // eq numbering options: none, ams, all
   },
   options: {
     renderActions: {

@@ -1471,6 +1471,7 @@ th {
 }
 
 .page-sidebar {
+  text-align: right;
   font-size: 0.75rem;
 }
 .page-sidebar .page-date,

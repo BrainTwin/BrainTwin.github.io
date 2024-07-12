@@ -102,7 +102,7 @@
 .site-logo-img {
   width: $site-logo-width;
   height: $site-logo-height;
-  // border: 0px solid;
+  border: 10px solid;
   border-radius: $site-logo-width;
 
   @include breakpoint($medium) {

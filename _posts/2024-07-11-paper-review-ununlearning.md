@@ -3,13 +3,19 @@ title: "UnUnlearning: Unlearning is not sufficient for content regulation in adv
 categories:
   - Paper Review
 tags:
-  - unlearning
+  - Unlearning
+  - Knowledge Regulation
 image:
   path: /images/main.png
   thumbnail: /images/2024-07-11-paper-review-ununlearning/thumbnail.png
 
 # last_modified_at: 2024-07-20
 ---
+
+-----
+<br>
+본격적인 연구 내용을 알아보기에 앞서 이 글에서 다룰 내용이 왜 심각하게 논의되어야 하는지 살펴볼 필요가 있다. 아마 GPT, Claude, Gemini와 같은 모델들을 사용해봤다면 소위 Large Language Model(LLM) 이라고 불리는 놈들의 엄청난 지적능력에 분명 한번쯤은 놀란 경험을 가지고 있을 것이다. 추상적인 질문에도 기가막힌 대답을 내어놓는다. 심지어 문장 구성이나 맥락도 완벽에 가까울정도로 체계적이고 구조가 잘 갖춰져있다. 하지만 때로는 인간(?)적인 면모를 보여주기도 한다. 매우 단순한 연산임에도 틀린 답을 말하면서 심지어 뚝심있게 어떠한 회유나 압박에도 굴하지 않고 동일한 답변을 주기도 한다.
+
 
 ### Terminology
 - Impermissible knowledge : 비허가 지식 or 정보

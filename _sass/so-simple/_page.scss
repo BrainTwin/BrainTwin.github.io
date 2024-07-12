@@ -241,7 +241,7 @@
       display: grid;
       grid-column-gap: 1em;
       grid-row-gap: 0;
-      grid-template-columns: 1fr 175px ;
+      grid-template-columns: 0.93fr 200px ;
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
@@ -284,6 +284,7 @@
 
   .page-content {
     font-weight: 300;
+    padding-left: 3%;
     @include breakpoint($large) {
       float: right; // display: grid fallback
       width: 100%; // display: grid fallback

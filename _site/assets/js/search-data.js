@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/"
       },{
         "title": "UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI for algebra",
-        "excerpt":" Main image ","categories": ["Paper Review"],
+        "excerpt":" 메인 이미지 ","categories": ["Paper Review"],
         "tags": ["unlearning"],
         "url": "http://localhost:4000/paper%20review/paper-review-ununlearning/"
       }]

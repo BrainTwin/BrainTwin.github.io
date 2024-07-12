@@ -8,4 +8,4 @@ tags:
 ---
 ![Main image](/images/2024-07-11-paper-review-ununlearning_0.png)
 
-Main image 
+메인 이미지

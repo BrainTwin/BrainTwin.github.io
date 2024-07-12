@@ -13,7 +13,7 @@
   // @include fluid-type($min-vw, $max-vw, 48px, 60px);
   @include fluid-type($min-vw, $max-vw, 48*0.6px, 60*0.6px);
   // margin-bottom: 1em;
-  padding-left: 2em;
+  padding-left: 0.5em;
   // padding-right: 1em;
   font-family: $title-font-family;
   font-weight: $page-title-weight;

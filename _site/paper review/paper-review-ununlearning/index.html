@@ -21,19 +21,21 @@
 <meta property="og:title" content="UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI for algebra" />
 <meta name="author" content="WooSang Shin" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="About Artificial Intelligence…" />
-<meta property="og:description" content="About Artificial Intelligence…" />
+<meta name="description" content="Terminology Impermissible knowledge : 비허가 지식 or 정보 Unlearning : Content regulation : Biological(or nuclear) knowledge : Contextual interaction : Resurgence of undesirable knowledge : In-context learning :" />
+<meta property="og:description" content="Terminology Impermissible knowledge : 비허가 지식 or 정보 Unlearning : Content regulation : Biological(or nuclear) knowledge : Contextual interaction : Resurgence of undesirable knowledge : In-context learning :" />
 <link rel="canonical" href="http://localhost:4000/paper%20review/paper-review-ununlearning/" />
 <meta property="og:url" content="http://localhost:4000/paper%20review/paper-review-ununlearning/" />
 <meta property="og:site_name" content="BrainTwin" />
+<meta property="og:image" content="http://localhost:4000/images/2024-07-11-paper-review-ununlearning/main.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-07-11T00:00:00+09:00" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/images/2024-07-11-paper-review-ununlearning/main.png" />
 <meta property="twitter:title" content="UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI for algebra" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@WooSang Shin" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"WooSang Shin"},"dateModified":"2024-07-11T00:00:00+09:00","datePublished":"2024-07-11T00:00:00+09:00","description":"About Artificial Intelligence…","headline":"UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI for algebra","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/paper%20review/paper-review-ununlearning/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo.png"},"name":"WooSang Shin"},"url":"http://localhost:4000/paper%20review/paper-review-ununlearning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"WooSang Shin"},"dateModified":"2024-07-11T00:00:00+09:00","datePublished":"2024-07-11T00:00:00+09:00","description":"Terminology Impermissible knowledge : 비허가 지식 or 정보 Unlearning : Content regulation : Biological(or nuclear) knowledge : Contextual interaction : Resurgence of undesirable knowledge : In-context learning :","headline":"UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI for algebra","image":{"thumbnail":"/images/2024-07-11-paper-review-ununlearning/thumbnail.png","url":"http://localhost:4000/images/2024-07-11-paper-review-ununlearning/main.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/paper%20review/paper-review-ununlearning/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo.png"},"name":"WooSang Shin"},"url":"http://localhost:4000/paper%20review/paper-review-ununlearning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -88,11 +90,6 @@
     
     
     
-      
-        <div class="site-title animated fadeIn"><a href="/">BrainTwin</a></div>
-      
-      <p class="site-description animated fadeIn" itemprop="description">About Artificial Intelligence...</p>
-    
   </div>
 </header><!-- /.masthead -->
 
@@ -100,6 +97,15 @@
     <main id="main" class="main-content" aria-label="Content">
   <article class="h-entry">
     
+  
+  
+  
+
+  <div class="page-image">
+    <img src="/images/2024-07-11-paper-review-ununlearning/main.png" class="entry-feature-image u-photo" alt="UnUnlearning: Unlearning is not sufficient for content regulation in advanced generative AI for algebra" >
+    
+  </div>
+
 
     <div class="page-wrapper">
       <header class="page-header">
@@ -147,9 +153,52 @@
       <div class="page-content">
         
         <div class="e-content">
-          <p><img src="/images/2024-07-11-paper-review-ununlearning_0.png" alt="Main image" /></p>
+          <h2 id="terminology">Terminology</h2>
+<ul>
+  <li>Impermissible knowledge : 비허가 지식 or 정보</li>
+  <li>Unlearning :</li>
+  <li>Content regulation :</li>
+  <li>Biological(or nuclear) knowledge :</li>
+  <li>Contextual interaction :</li>
+  <li>Resurgence of undesirable knowledge :</li>
+  <li>In-context learning :</li>
+</ul>
 
-<p>메인 이미지</p>
+<h2 id="main-argument">Main Argument</h2>
+
+<p>이 논문에서 저자들은 기존 unlearning schemes의 feasibility를 논의하고자함. 엄밀하게는 model이 가진 특정 정보의 규제(specific information regulation)가 unlearning으로 가능한지 의혹을 제기.</p>
+
+<p>In-context learning 관점에서 특정 word는 다른 정보들의 조합으로 표현.</p>
+
+<p><img src="/images/2024-07-11-paper-review-ununlearning/0.png" alt="knowledge" /></p>
+
+<p>이 관점에서 보면 관련 정보들을 모두 제거하는 것이 아니라면 특정 정보를 unlearning하더라도 우회적인 방법을 통해 충분히 정보를 유추해낼 수 있음. 이는 unlearning의 필요성에 바탕이 되는 비허가 정보의 유출을 막는 것이 기존 전략으로는 어렵다는 것을 시사.</p>
+
+<p><img src="/images/2024-07-11-paper-review-ununlearning/1.png" alt="example" /></p>
+
+<p>(예 :<code class="language-plaintext highlighter-rouge">폭탄</code> 제조 방법에 대한 정보를 모델이 가지고 있을때 <code class="language-plaintext highlighter-rouge">폭탄</code>에 대한 정보를 제거(unlearning)하더라도 <code class="language-plaintext highlighter-rouge">폭탄</code> 의 속성을 부여한 새로운 단어를 정의함으로써, 제조 방법에 대한 정보를 접근 할 수 있게 됨.)</p>
+
+<h2 id="nomenclature">Nomenclature</h2>
+
+<p>저자들은 비공식적으로 다음 개념들을 정의함.</p>
+
+<p>Knowledge : 모델이 이용가능한 모든 정보. 입력에 의해 파생될 수 있는 in-contextual 정보, model의 parameter에 저장된 정보, retrieval에 이용가능한 evidence들을 모두 포함.</p>
+
+<p>Content filtering :</p>
+
+<p>Unlearning :</p>
+
+<p>Unlearning for privacy :</p>
+
+<p>Unlearning for content regulation :</p>
+
+<p>In-Context learning :</p>
+
+<h2 id="types-of-knowledge">Types of knowledge</h2>
+
+<p>Axioms</p>
+
+<p>Theorems</p>
 
         </div>
 

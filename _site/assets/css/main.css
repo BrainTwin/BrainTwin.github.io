@@ -88,6 +88,7 @@
 /*! Lity - v3.0.0-dev - 2017-07-17
 * http://sorgalla.com/lity/
 * Copyright (c) 2015-2017 Jan Sorgalla; Licensed MIT */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schoolbell&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Delius&family=M+PLUS+1+Code:wght@100..700&family=Nunito:ital,wght@1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Schoolbell&display=swap");
 .lity {
@@ -315,7 +316,7 @@
 /* Document
    ========================================================================== */
 html {
-  font-family: "Source Sans Pro", sans-serif; /* 1 */
+  font-family: "Mulish", sans-serif; /* 1 */
   box-sizing: border-box;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -589,7 +590,7 @@ optgroup,
 select,
 textarea {
   margin: 0; /* 2 */
-  font-family: "Source Sans Pro", sans-serif; /* 1 */
+  font-family: "Mulish", sans-serif; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
 }
@@ -1126,7 +1127,6 @@ th {
 .site-logo-img {
   width: 100px;
   height: 100px;
-  border: 5px solid;
   border-radius: 100px;
 }
 @media (min-width: 48em) {
@@ -1205,7 +1205,7 @@ th {
 
 .taxonomy-title {
   margin-bottom: 0.5em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 .taxonomy-title {
   font-size: 28px;
@@ -1227,7 +1227,7 @@ th {
   grid-template-columns: repeat(2, 1fr);
   margin: 0;
   padding: 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 0.9rem;
   list-style: none;
 }
@@ -1325,7 +1325,7 @@ th {
   align-items: center;
   margin: 0;
   padding: 0.75rem 1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-size: 0.75rem;
   text-transform: uppercase;
   cursor: pointer;
@@ -1358,7 +1358,7 @@ th {
 }
 .toc-wrapper li {
   padding: 0.3em 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 .toc-wrapper li a {
   display: inline-block;
@@ -1428,7 +1428,8 @@ th {
   text-align: center;
   margin-top: -50px;
   margin-bottom: 2em;
-  z-index: 1;
+  z-index: 0;
+  opacity: 0.4;
 }
 @media (min-width: 48em) {
   .page-image {
@@ -1670,6 +1671,9 @@ th {
 }
 .layout--post .page-sidebar a:hover {
   text-decoration: underline;
+}
+.layout--post .page-content {
+  font-weight: 300;
 }
 @media (min-width: 64em) {
   .layout--post .page-content {

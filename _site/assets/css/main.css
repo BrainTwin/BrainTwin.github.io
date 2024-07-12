@@ -1385,21 +1385,23 @@ th {
 }
 
 .page-title-post {
+  padding-left: 2em;
   font-family: "Lora", serif;
   font-weight: 400;
   font-style: italic;
+  text-align: right;
 }
 .page-title-post {
-  font-size: 32px;
+  font-size: 28.8px;
 }
 @media screen and (min-width: 320px) {
   .page-title-post {
-    font-size: calc(32px + 8 * ((100vw - 320px) / 960));
+    font-size: calc(28.8px + 7.2 * ((100vw - 320px) / 960));
   }
 }
 @media screen and (min-width: 1280px) {
   .page-title-post {
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 
@@ -1431,7 +1433,6 @@ th {
   margin-top: -50px;
   margin-bottom: 2em;
   z-index: 0;
-  opacity: 0.4;
 }
 @media (min-width: 48em) {
   .page-image {

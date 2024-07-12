@@ -1676,7 +1676,6 @@ th {
 }
 .layout--post .page-content {
   font-weight: 300;
-  padding-right: 2em;
 }
 @media (min-width: 64em) {
   .layout--post .page-content {

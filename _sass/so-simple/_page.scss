@@ -284,7 +284,6 @@
 
   .page-content {
     font-weight: 300;
-    padding-right: 2em;
     @include breakpoint($large) {
       float: right; // display: grid fallback
       width: 100%; // display: grid fallback

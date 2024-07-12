@@ -5,7 +5,7 @@ categories:
 tags:
   - signature
 image:
-  path: /images/2024-07-10-paper-review-tree-rings-watermarks-invisible-fingerprints/main.png
+  path: /images/main.png
   thumbnail: /images/2024-07-10-paper-review-tree-rings-watermarks-invisible-fingerprints/thumbnail.png
 
 # last_modified_at: 2024-07-20

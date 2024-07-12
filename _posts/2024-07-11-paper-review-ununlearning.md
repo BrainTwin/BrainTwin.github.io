@@ -5,9 +5,9 @@ categories:
 tags:
   - unlearning
 image:
-  path: /images/2024-07-11-paper-review-ununlearning/main.png
+  path: /images/main.png
   thumbnail: /images/2024-07-11-paper-review-ununlearning/thumbnail.png
-# show_excerpts : false
+
 # last_modified_at: 2024-07-20
 ---
 

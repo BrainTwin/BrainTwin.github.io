@@ -1385,11 +1385,10 @@ th {
 }
 
 .page-title-post {
-  padding-left: 0.5em;
   font-family: "Lora", serif;
   font-weight: 400;
   font-style: italic;
-  text-align: right;
+  text-align: left;
 }
 .page-title-post {
   font-size: 28.8px;
@@ -1635,7 +1634,7 @@ th {
 @media (min-width: 64em) {
   .layout--post .page-wrapper {
     display: grid;
-    grid-column-gap: 3em;
+    grid-column-gap: 1em;
     grid-row-gap: 0;
     grid-template-columns: 175px 1fr;
     -webkit-box-pack: justify;
@@ -1677,11 +1676,12 @@ th {
 }
 .layout--post .page-content {
   font-weight: 300;
+  padding-right: 2em;
 }
 @media (min-width: 64em) {
   .layout--post .page-content {
     float: right;
-    width: 78%;
+    width: 100%;
     min-width: 0;
   }
 }

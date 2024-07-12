@@ -6,8 +6,8 @@
 <time class="page-date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
   {%- assign date_format = site.minima.date_format | default: '%B %-d, %Y' -%}
   {%- if page.last_modified_at -%}
-  <br>(last)  {{ page.last_modified_at | date: date_format }}
+  <br>{{ page.last_modified_at | date: date_format }}  (last)
   {%- else -%}
-  <br>(last)  {{ page.date | date: date_format }}
+  <br>{{ page.date | date: date_format }}  (last)
   {%- endif -%}
 </time>

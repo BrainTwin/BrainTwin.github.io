@@ -11,7 +11,7 @@ image:
 # last_modified_at: 2024-07-20
 ---
 
-## Terminology
+### Terminology
 - Impermissible knowledge : 비허가 지식 or 정보
 - Unlearning :
 - Content regulation :
@@ -21,7 +21,7 @@ image:
 - In-context learning :
 
 
-## Main Argument
+### Main Argument
 
 이 논문에서 저자들은 기존 unlearning schemes의 feasibility를 논의하고자함. 엄밀하게는 model이 가진 특정 정보의 규제(specific information regulation)가 unlearning으로 가능한지 의혹을 제기.
 
@@ -35,7 +35,7 @@ In-context learning 관점에서 특정 word는 다른 정보들의 조합으로
 
 (예 :`폭탄` 제조 방법에 대한 정보를 모델이 가지고 있을때 `폭탄`에 대한 정보를 제거(unlearning)하더라도 `폭탄` 의 속성을 부여한 새로운 단어를 정의함으로써, 제조 방법에 대한 정보를 접근 할 수 있게 됨.)
 
-## Nomenclature
+### Nomenclature
 
 저자들은 비공식적으로 다음 개념들을 정의함.
 
@@ -51,7 +51,7 @@ Unlearning for content regulation :
 
 In-Context learning : 
 
-## Types of knowledge
+### Types of knowledge
 
 Axioms
 

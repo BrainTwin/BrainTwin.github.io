@@ -2490,6 +2490,7 @@ a img.align-left {
   justify-content: center;
 }
 .link-in-post .entry {
+  border: 0px solid;
   border-radius: 20px;
   padding: 10px 50px 10px 50px;
   width: 70%;

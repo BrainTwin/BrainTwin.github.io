@@ -1,0 +1,5 @@
+<section class="link-in-post">
+  {% assign entry = site.posts | where: "title", include.title %}
+  {% assign entry = entry[0] %}
+  {% include entry.html is_entry_post = true %}
+</section>

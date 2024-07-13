@@ -2482,4 +2482,20 @@ a img.align-left {
   padding-top: 100%;
 }
 
+/* Custom Link Style */
+.link-in-post {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.link-in-post .entry {
+  border: 1.5px solid;
+  border-radius: 20px;
+  padding: 10px 50px 10px 50px;
+  width: 70%;
+  box-shadow: 5px 5px 5px rgb(200, 200, 200);
+  border-color: rgb(170, 170, 170);
+}
+
 /*# sourceMappingURL=main.css.map */

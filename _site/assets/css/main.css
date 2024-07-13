@@ -2485,7 +2485,7 @@ a img.align-left {
 /* Custom Link Style */
 .link-in-post {
   text-align: center;
-  margin: 20px;
+  margin: 3%;
   display: flex;
   justify-content: center;
   border: 0px solid;

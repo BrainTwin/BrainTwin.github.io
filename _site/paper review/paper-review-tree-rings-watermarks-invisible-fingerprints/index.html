@@ -21,8 +21,8 @@
 <meta property="og:title" content="Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images" />
 <meta name="author" content="WooSang Shin" />
 <meta property="og:locale" content="ko_KR" />
-<meta name="description" content="Main image" />
-<meta property="og:description" content="Main image" />
+<meta name="description" content="openreview.net" />
+<meta property="og:description" content="openreview.net" />
 <link rel="canonical" href="http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/" />
 <meta property="og:url" content="http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/" />
 <meta property="og:site_name" content="BrainTwin" />
@@ -35,7 +35,7 @@
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@WooSang Shin" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"WooSang Shin"},"dateModified":"2024-07-10T00:00:00+09:00","datePublished":"2024-07-10T00:00:00+09:00","description":"Main image","headline":"Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images","image":{"thumbnail":"/images/2024-07-10-paper-review-tree-rings-watermarks-invisible-fingerprints/thumbnail.png","url":"http://localhost:4000/images/main.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo.png"},"name":"WooSang Shin"},"url":"http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"WooSang Shin"},"dateModified":"2024-07-10T00:00:00+09:00","datePublished":"2024-07-10T00:00:00+09:00","description":"openreview.net","headline":"Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images","image":{"thumbnail":"/images/2024-07-10-paper-review-tree-rings-watermarks-invisible-fingerprints/thumbnail.png","url":"http://localhost:4000/images/main.png","@type":"imageObject"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/logo.png"},"name":"WooSang Shin"},"url":"http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -127,11 +127,39 @@
         
 
       </header>
-
+      
       <div class="page-content">
-        
+        <hr>
         <div class="e-content">
-          <p>Main image</p>
+          <p><a href="https://openreview.net/pdf?id=Z57JrmubNl">openreview.net</a></p>
+
+<h3 id="diffusion-inversion">Diffusion Inversion</h3>
+
+<p>: Reverse diffusion process의 initial state $x_T$를 $x_0$로 부터 sampling하는 것.</p>
+
+<p>(Reverse process와 Forward process가 서로 adjoint 되어 있음이 보장되면 가능.)</p>
+
+<p>Learned reverse transition probabilistic model $\epsilon_\theta(x_t)$을 이용하여 opposite direction으로 이동할 수 있음.</p>
+
+<p>$\hat x_0=D_\theta(x_T,0)\approx x_0$</p>
+
+<p>Here, $D_\theta$ is reverse diffusion process.</p>
+
+<p>This mechanism depends on the assumption that  $x_{t+1}-x_t\approx x_{t}-x_{t-1}$ (논문에 표기된 수식은 오타인 듯)</p>
+
+\[x_{t+1} = \sqrt{\bar \alpha_{t+1}}\hat x_0^t + \sqrt{1-\bar \alpha_{t+1}}\epsilon_\theta(x_t).\]
+
+<p>$D^\dagger_\theta$ denotes inversion process by above equation.</p>
+
+<p>정리하자면, $\hat x_T=D^\dagger_\theta(x_0)\approx x_T$</p>
+
+<h3 id="tree-ring-watermarking">Tree-Ring Watermarking</h3>
+
+<p>: Choosing the initial noise state so that its Fourier transform contains a carefully constructed pattern near its center. (Center = Low frequency region) This pattern is called as ‘key’.</p>
+
+<p>바로 $x_T$에 key를 삽입하면 결과 이미지에 알아챌만한 패턴이 나타날 수 있음.</p>
+
+<p>Fourier space를 이용하는 이유는 invariant property들이 잘 알려져 있음.</p>
 
         </div>
 
@@ -146,11 +174,11 @@
         
 
         
-
-        
+        <hr>  
       </div>
-
+      
       <div class="page-sidebar">
+        <br>
         <div class="page-author h-card p-author"><div class="author-info"><div class="author-name">
         <!-- <span class="p-name">&nbsp;WooSang Shin</span> -->
         <span class="p-name">by <em>WooSang Shin</em></span>
@@ -170,13 +198,12 @@
   <ul class="page-taxonomies"><li class="page-taxonomy">Paper Review</li>
   </ul>
 
-
+</br>
         
   <h3 class="page-taxonomies-title">Tags</h3>
   
   <ul class="page-taxonomies"><li class="page-taxonomy">Authentication</li><li class="page-taxonomy">Authorization</li><li class="page-taxonomy">Signature</li>
   </ul>
-
 
 
       </div>
@@ -194,7 +221,7 @@
   
 </nav>
 
-
+<hr>
     </div>
   </article>
 </main>

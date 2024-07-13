@@ -1,6 +1,6 @@
 var store = [{
         "title": "Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images",
-        "excerpt":"Main image ","categories": ["Paper Review"],
+        "excerpt":"openreview.net Diffusion Inversion : Reverse diffusion process의 initial state $x_T$를 $x_0$로 부터 sampling하는 것. (Reverse process와 Forward process가 서로 adjoint 되어 있음이 보장되면 가능.) Learned reverse transition probabilistic model $\\epsilon_\\theta(x_t)$을 이용하여 opposite direction으로 이동할 수 있음. $\\hat x_0=D_\\theta(x_T,0)\\approx x_0$ Here, $D_\\theta$ is reverse diffusion process. This mechanism depends on the...","categories": ["Paper Review"],
         "tags": ["Signature","Authentication","Authorization"],
         "url": "http://localhost:4000/paper%20review/paper-review-tree-rings-watermarks-invisible-fingerprints/"
       },{

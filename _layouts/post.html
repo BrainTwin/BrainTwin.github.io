@@ -17,9 +17,9 @@ layout: default
         {% endif %}
 
       </header>
-
+      
       <div class="page-content">
-        
+        <hr>
         <div class="e-content">
           {{ content }}
         </div>
@@ -31,18 +31,17 @@ layout: default
         {% if site.disqus.shortname %}
           {% include disqus-comments.html %}
         {% endif %}
-
-        
+        <hr>  
       </div>
-
+      
       <div class="page-sidebar">
+        <br>
         {% include page-author.html %}
-        {% include page-categories.html %}
+        {% include page-categories.html %}</br>
         {% include page-tags.html %}
-
       </div>
       {% include page-pagination.html %}
-
+<hr>
     </div>
   </article>
 </main>

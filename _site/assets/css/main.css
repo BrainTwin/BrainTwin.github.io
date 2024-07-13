@@ -2488,14 +2488,15 @@ a img.align-left {
   margin: 20px;
   display: flex;
   justify-content: center;
-}
-.link-in-post .entry {
   border: 0px solid;
   border-radius: 20px;
   padding: 10px 50px 10px 50px;
-  width: 70%;
   box-shadow: 0px 5px 10px rgb(200, 200, 200);
   border-color: rgb(170, 170, 170);
+}
+.link-in-post .entry-image {
+  width: 60%;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

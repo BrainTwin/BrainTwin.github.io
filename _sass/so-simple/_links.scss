@@ -1,16 +1,16 @@
-.link-in-post {
+.link-in-post{
     text-align: center;
     margin: 20px;
     display: flex;
-    justify-content: center;    
-    .entry {  
-        border: 0px solid;
-        border-radius: 20px;
-        padding: 10px 50px 10px 50px;
-        width: 70%;
-        // max-height: 10em;
-        box-shadow: 0px 5px 10px rgb(200, 200, 200);
-        border-color: rgb(170, 170, 170); 
-    }
- 
+    justify-content: center;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 10px 50px 10px 50px;
+    box-shadow: 0px 5px 10px rgb(200, 200, 200);
+    border-color: rgb(170, 170, 170);
+
+    .entry-image {
+        width: 60%;
+        margin: 0 auto;
+    } 
 }

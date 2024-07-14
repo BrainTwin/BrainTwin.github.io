@@ -116,7 +116,8 @@ blockquote {
   border-color: #1a1d24;
 }
 .site-nav a:hover {
-  border-color: #aeaeae;
+  color: #5f6990;
+  border-color: #5f6990;
 }
 
 .site-footer {

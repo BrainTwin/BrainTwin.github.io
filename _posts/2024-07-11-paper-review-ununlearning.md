@@ -15,9 +15,10 @@ image:
 
 본격적인 연구 내용을 알아보기에 앞서 이 글에서 다룰 내용이 왜 심각하게 논의되어야 하는지 살펴볼 필요가 있다. 아마 GPT, Claude, Gemini와 같은 모델들을 사용해봤다면 소위 Large Language Model(LLM) 이라고 불리는 놈들의 엄청난 지적능력에 분명 한번쯤은 놀란 경험을 가지고 있을 것이다. 추상적인 질문에도 기가막힌 대답을 내어놓는다. 심지어 문장 구성이나 맥락도 완벽에 가까울정도로 체계적이고 구조가 잘 갖춰져있다. 하지만 때로는 인간(?)적인 면모를 보여주기도 한다. 매우 단순한 연산임에도 틀린 답을 말하면서 심지어 뚝심있게 어떠한 회유나 압박에도 굴하지 않고 동일한 답변을 주기도 한다.
 
-
+아래 링크의 포스트 참조
+<br>
 {% include link-post.html title = "Tree-Rings Watermarks: Invisible Fingerprints for Diffusion Images" %}
-
+<br>
 
 ### Terminology
 - Impermissible knowledge : 비허가 지식 or 정보
@@ -28,9 +29,8 @@ image:
 - Resurgence of undesirable knowledge :
 - In-context learning :
 
-
+<br>
 ### Main Argument
-
 이 논문에서 저자들은 기존 unlearning schemes의 feasibility를 논의하고자함. 엄밀하게는 model이 가진 특정 정보의 규제(specific information regulation)가 unlearning으로 가능한지 의혹을 제기.
 
 In-context learning 관점에서 특정 word는 다른 정보들의 조합으로 표현. 
@@ -43,6 +43,7 @@ In-context learning 관점에서 특정 word는 다른 정보들의 조합으로
 
 (예 :`폭탄` 제조 방법에 대한 정보를 모델이 가지고 있을때 `폭탄`에 대한 정보를 제거(unlearning)하더라도 `폭탄` 의 속성을 부여한 새로운 단어를 정의함으로써, 제조 방법에 대한 정보를 접근 할 수 있게 됨.)
 
+<br>
 ### Nomenclature
 
 저자들은 비공식적으로 다음 개념들을 정의함.
@@ -59,6 +60,7 @@ Unlearning for content regulation :
 
 In-Context learning : 
 
+<br>
 ### Types of knowledge
 
 Axioms

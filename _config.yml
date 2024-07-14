@@ -19,7 +19,7 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: ko-KR
 title: "Sewing Robot"
-description: "Who is the 'Sewing Robot' working for?"
+description: "Who would the 'Sewing Robot' work for?"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: "/images/logo.png" # path of site logo, e.g. "/images/logo.png"

@@ -1502,7 +1502,6 @@ th {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 1em;
 }
 .page-author::after {
   clear: both;
@@ -1525,7 +1524,7 @@ th {
 @media (min-width: 64em) {
   .page-taxonomies-title {
     display: inline-block;
-    margin: 1.5em 0 0.5em;
+    margin: 1em 0 0em;
     padding: 0;
     font-size: 0.75rem;
     font-weight: normal;
@@ -1542,7 +1541,7 @@ th {
 @media (min-width: 64em) {
   .page-taxonomies {
     display: block;
-    margin: 0 0 1.5em 0;
+    margin: 0 0 0 0;
   }
 }
 

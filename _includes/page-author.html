@@ -1,6 +1,9 @@
 {%- assign author = page.author | default: page.authors[0] | default: site.author -%}
 {%- assign author = site.data.authors[author] | default: author -%}
 
+{% if site.read_time %}{% include read-time.html %}{% endif %}
+{% if page.date %}{% include page-date.html %}{% endif %}
+
 <div class="page-author h-card p-author">
   {%- if author.picture -%}
     {%- if author.picture contains "://" -%}
@@ -14,8 +17,8 @@
   <div class="author-info">
     {%- if author.name -%}
       <div class="author-name">
-        <!-- {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">&nbsp;{{ author.name }}</span> -->
-        <span class="p-name">by <em>{{ author.name }}</em></span>
+        <h3 class="page-taxonomies-title">Author</h3>
+        <span class="p-name">{{ author.name }}</span>
       </div>
     {%- endif -%}
     {%- if author.links -%}
@@ -32,7 +35,5 @@
         {%- endfor -%}
       </ul>
     {%- endif -%}
-    {% if site.read_time %}{% include read-time.html %}{% endif %}
-    {% if page.date %}{% include page-date.html %}{% endif %}
   </div>
 </div>
